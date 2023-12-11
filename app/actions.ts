@@ -11,11 +11,6 @@ export async function createUser(formData: FormData) {
   };
 
   // const response = await fetch("http://localhost:8080/api/v1/users", {
-  //   method: "GET",
-  //   headers: { "Content-Type": "application/json" },
-  // });
-
-  // const response = await fetch("http://localhost:8080/api/v1/users", {
   //   method: "POST",
   //   headers: { "Content-Type": "application/json" },
   //   body: JSON.stringify({data: rawFormData}),
@@ -28,5 +23,4 @@ export async function createUser(formData: FormData) {
 
   console.log(rawFormData);
 
-  //   return response.json();
 }
